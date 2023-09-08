@@ -34,14 +34,14 @@ const Moda = () => {
         isOpen={isOpen} 
         onClose={onClose} 
       >
-        <ModalContent>
+        <ModalContent className="   bg-[#F2F0F0]">
           {(onClose) => (
             <>
               <ModalPortfolio />
 
-              <ModalFooter className="bg-red-400">
+              <ModalFooter className="bg-[#101b17] text-white flex gap-x-7">
                 <Button
-                  className="bg-red-300"
+                  className=""
                   color="danger"
                   variant="light"
                   onPress={onClose}

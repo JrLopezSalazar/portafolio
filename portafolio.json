@@ -15,11 +15,11 @@
         "id": 3,
         "name": "App Clima",
         "url": "https://heroic-swan-242092.netlify.app",
-        "img": "rym.png"
+        "img": "./images/wheater.png"
     },
     {
         "id": 4,
-        "name": "Lista de usuarios",
+        "name": "E commerce",
         "url": "https://animated-sprinkles-2e1c48.netlify.app",
         "img": "rym.png"
     },
@@ -31,7 +31,7 @@
     },
     {
         "id": 6,
-        "name": "Galleta de la fortuna",
+        "name": "Lista de usuarios",
         "url": "https://heroic-faun-74d6c2.netlify.app",
         "img": "./images/users.png"
     }

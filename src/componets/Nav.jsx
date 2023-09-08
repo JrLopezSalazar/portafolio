@@ -24,11 +24,10 @@ const Nav = () => {
           <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
               <div className="flex items-center justify-between py-3 md:py-5 md:block">
                     <a href="javascript:void(0)">
-                        <img
-                            src="https://www.floatui.com/logo.svg" 
-                            width={120} 
-                            height={50}
-                            alt="Float UI logo"
+                        <img className='w-[150px] h-[150px] '
+                            src="/images/logode1.png" 
+                            
+                            alt="junior lopez developer"
                         />
                     </a>
                   <div className="md:hidden">

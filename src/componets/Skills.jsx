@@ -6,26 +6,14 @@ const Skills = () => {
       <div className="max-w-screen-xl mx-auto px-4 md:px-8">
         <div className="max-w-xl mx-auto text-center">
           <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-            Who's using Float UI?
+            Tecnologias que utilizo para desarrolar webs
           </h3>
-          <p className="text-gray-600 mt-3">
-          De niño nunca imaginé que la programación sería parte de mi vida y nunca 
-          consideré convertirme en programador.
-          {/* Pero a veces, la vida nos presenta oportunidades inesperadas que cambian nuestro rumbo 
-          de manera sorprendente. Esta es mi historia de cómo encontré mi pasión en el mundo 
-          de la programación. **Capítulo 1: El Encuentro Casual** */}
-          Mi primer encuentro con la programación fue casual. Tropecé con un curso en
-          línea sobre desarrollo web mientras buscaba información completamente diferente. 
-          Aunque inicialmente no me interesaba, decidí darle una oportunidad. Y ese fue el 
-          primer paso.
-          A medida que me sumergía en el aprendizaje de la programación, enfrenté desafíos que 
-          me pusieron a prueba. Los conceptos y códigos parecían un lenguaje extraterrestre 
-          pero en lugar de rendirme, me intrigaron los problemas y la resolución de problemas. 
-          En ese momento me comenzo a apasionar la programación. 
-          </p>
+
+          <p className="text-gray-600 mt-3" >Lorem ipsum dolor sporro! Illum, ipsam blanditiis?</p>
+
         </div>
         <div className="mt-12 flex justify-center">
-          <ul className="inline-grid grid-cols-2 gap-x-10 gap-y-6 md:gap-x-16 md:grid-cols-3 lg:grid-cols-3">
+          <ul className="inline-grid grid-cols-2 gap-x-14  gap-y-8 md:gap-x-28 md:grid-cols-3 lg:grid-cols-3">
             {/* LOGO 1 */}
             <li>
               <img src="./images/html5.png" alt="" />

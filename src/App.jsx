@@ -8,6 +8,7 @@ import { useState } from 'react'
 import data from '../portafolio.json'
 import ModalPortfolio from './componets/ModalPortfolio' 
 import Moda from './Moda'
+import Footer from './componets/Footer'
 
 
 
@@ -29,7 +30,8 @@ function App() {
       <ListPortfolio dbPortfolio={dbPortfolio}/>
       {/* <ModalPortfolio dbPortfolio={dbPortfolio} /> */}
     
-      <Moda />
+      {/* <Moda /> */}
+      <Footer />
     
 
 
