@@ -17,7 +17,7 @@ const Nav = () => {
   ]
 
   return (
-    <header className=" h-screen w-full bg-bg-jr relative">
+    <header className=" h-screen w-full bg-bg-header bg-cover relative">
       
 
 <nav className=" w-full  md:border-0 md:static">
@@ -79,20 +79,20 @@ const Nav = () => {
       </nav>
 
       <section className=''>
-          <div className="grid justify-center mt-[350px] h-[150px] text-black">
+          <div className="grid justify-center mt-[350px] h-[150px] text-white">
             <h3
               className="font-Poppins inline-flex h-20 pt-2 overflow-x-hidden animate-type 
             group-hover:animate-type-reverse whitespace-nowrap 
               mb-1 font-mono text-4xl  md:text-6xl"
             >
-             Hola, mi nombre es!
+             Hola, mi nombre es
             </h3>
 
             {/* <div className=" font-mono text-xl  md:text-4xl block mb-14 ">
               Give me your name to start
             </div> */}
           </div>
-          <h2 className='font-Poppins font-bold md:text-6xl mx-auto flex justify-center '  >
+          <h2 className='text-white font-Poppins font-bold md:text-6xl mx-auto flex justify-center '  >
             Junior López
           </h2>
 

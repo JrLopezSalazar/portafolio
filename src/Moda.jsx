@@ -11,6 +11,7 @@ import {
 } from "@nextui-org/react";
 import ModalPortfolio from "./componets/ModalPortfolio";
 
+
 const Moda = () => {
   const { isOpen, onOpen, onOpenChange, onClose } = useDisclosure();
   const [size, setSize] = React.useState('5xl')

@@ -6,8 +6,8 @@ import Skills from './componets/Skills'
 import ListPortfolio from './componets/ListPortfolio'
 import { useState } from 'react'
 import data from '../portafolio.json'
-import ModalPortfolio from './componets/ModalPortfolio' 
-import Moda from './Moda'
+
+
 import Footer from './componets/Footer'
 
 

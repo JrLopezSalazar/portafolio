@@ -36,9 +36,9 @@ const Portfolio = ({ proyect }) => {
               className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"
               onClick={() => setOpen(!open)}
             >
-              ver{" "}
+              {open ? <Moda /> : <Moda />} 
             </button>
-            {open ? <Moda /> : <Moda />}
+            
           </div>
         </div>
       </section>

@@ -22,7 +22,8 @@ export default {
       },
       backgroundImage: {
         "bg-jr": "url('/images/bg-img.jpg')",
-        "nature-dark": "url('/nature-dark.jpg')",
+        "bg-header": "url('/images/header.jpg')",
+
       },
       
   
