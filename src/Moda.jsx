@@ -25,7 +25,7 @@ const Moda = () => {
 
   return (
     <>
-       <div className="flex flex-wrap gap-3">
+       <div className="flex flex-wrap gap-3 ">
         {sizes.map((size) => (
           <Button key={size} onPress={() => handleOpen(size)}>Open </Button>
         ))}  
@@ -35,7 +35,7 @@ const Moda = () => {
         isOpen={isOpen} 
         onClose={onClose} 
       >
-        <ModalContent className="   bg-[#F2F0F0]">
+        <ModalContent className="border-4 border-red-500 mr-5 flex mb-[170px]   bg-[#F2F0F0]">
           {(onClose) => (
             <>
               <ModalPortfolio />
@@ -49,6 +49,7 @@ const Moda = () => {
                 >
                   Close
                 </Button>
+                
                 <Button onPress={onClose}>Action</Button>
               </ModalFooter>
             </>

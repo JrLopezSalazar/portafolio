@@ -23,13 +23,16 @@ const Portfolio = ({ proyect }) => {
               alt=""
             />
           </div>
-          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
-          <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-            <h2 className="font-dmserif text-3xl font-bold text-white">
+          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent
+           to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+          <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center
+           px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+
+            <h2 className="font-dmserif text-3xl font-bold text-white ">
               {proyect?.name}
             </h2>
             <p className="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
               dolore adipisci placeat.
             </p>
             <button
