@@ -18,6 +18,9 @@ const Nav = () => {
 
   return (
     <header className=" h-screen w-full bg-bg-header bg-cover relative">
+        <ul className='absolute list-none animate-pulse'>
+            <li className="  animate-fade animate-duration-5 animate-infinite text-yellow-300 ml-11 mt-20 text-7xl  ">.</li>
+        </ul>
 
 
 <nav className=" w-full  md:border-0 md:static">
@@ -64,10 +67,10 @@ const Nav = () => {
 
                       }
 
-                      <li className='text-gray-600 hover:text-red-600'> <a href='#inicio'>Inicio</a></li>
-                      <li className='text-gray-600 hover:text-indigo-600'> <a href='#sobre mi'>Sobre mi</a></li>
-                      <li className='text-gray-600 hover:text-indigo-600'> <a href='#portfolio'>Portfolio</a></li>
-                      <li className='text-gray-600 hover:text-indigo-600'> <a href='#contacto'>Contacto</a></li>
+                      <li className=' text-white hover:text-[#3C4742]'> <a className='text-lg' href='#inicio'>Inicio</a></li>
+                      <li className=' text-white hover:text-[#3C4742]'> <a className='text-lg' href='#sobre mi'>Sobre mi</a></li>
+                      <li className=' text-white hover:text-[#3C4742]'> <a className='text-lg' href='#portfolio'>Portfolio</a></li>
+                      <li className=' text-white hover:text-[#3C4742]'> <a className='text-lg' href='#contacto'>Contacto</a></li>
                   </ul>
               </div>
               <div className="hidden md:inline-block">
@@ -79,7 +82,7 @@ const Nav = () => {
       </nav>
 
       <section className=''>
-          <div className="grid justify-center mt-[350px] h-[150px] text-white">
+          <div className="grid justify-center mt-[350px] h-[150px] text-white animate-p">
             <h3
               className="font-Poppins inline-flex h-20 pt-2 overflow-x-hidden animate-type
             group-hover:animate-type-reverse whitespace-nowrap
@@ -92,7 +95,7 @@ const Nav = () => {
               Give me your name to start
             </div> */}
           </div>
-          <h2 className='text-white font-Poppins font-bold md:text-6xl mx-auto flex justify-center '  >
+          <h2 className='animate-ping animate-infinite text-yellow-400 font-Poppins font-bold md:text-6xl mx-auto flex justify-center '  >
             Junior López
           </h2>
 

@@ -69,6 +69,7 @@ export default {
   plugins: [nextui()],
 
   plugins: [
-    require('flowbite/plugin')
+    require('flowbite/plugin'),
+    require('tailwindcss-animated')
   ],
 };

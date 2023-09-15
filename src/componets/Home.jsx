@@ -4,7 +4,7 @@ const Home = () => {
       <article>
           <section className="py-14 bg-[#F2F0F0] ">
             <div className="max-w-screen-xl mx-auto px-4 md:px-8">
-                <div className="max-w-3xl mx-auto text-center">
+                <div id="sobre mi" className="max-w-3xl mx-auto text-center">
                     <div className="pb-6">
                         <img src="/images/logodev.png" width={150} className="mx-auto" />
                     </div>

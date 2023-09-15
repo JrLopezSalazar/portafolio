@@ -4,8 +4,8 @@ const ContactForm = () => {
   return (
     // <div className=" container my-24 mx-auto md:px-6">
 
-    <article className="bg-[#3C4742] py-3 pb-24 text-center md:pt-20  ">
-      <h2 className=" text-white mb-3 text-4xl md:text-7xl
+    <article  className="bg-[#3C4742] py-3 pb-24 text-center md:pt-20  ">
+      <h2 id="contacto" className=" text-white mb-3 text-4xl md:text-7xl
        pt-10 font-Poppins font-bold md:flex md:ml-[220px]">Contactame</h2>
        
       <hr className="md:h-2 md:w-28 md:border-4 bg-black border-black md:ml-[350px] md:mt-8 absolute" />
