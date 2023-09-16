@@ -1,15 +1,17 @@
 [
     {   
         "id": 1,
-        "name": "Pokedex",
+        "name": " Rick and Morty",
         "url": "https://heroic-swan-242092.netlify.app",
-        "img": "./images/rym.png"
+        "img": "./images/rym.png",
+        "imgSlider": ["images/rym.png", "/images/poke2.png"]
     },
     {
         "id": 2,
-        "name": "Rick and Morty",
+        "name": "Pokedex",
         "url": "https://voluble-rugelach-805354.netlify.app",
-        "img": "./images/pokedex.png"
+        "img": "./images/pokedex.png",
+        "imgSlider": ["images/poke1.png", "/images/poke2.png"]
     },
     {
         "id": 3,

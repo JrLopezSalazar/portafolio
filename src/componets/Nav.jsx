@@ -19,7 +19,7 @@ const Nav = () => {
   return (
     <header className=" h-screen w-full bg-bg-header bg-cover relative">
         <ul className='absolute list-none animate-pulse'>
-            <li className="  animate-fade animate-duration-5 animate-infinite text-yellow-300 ml-11 mt-20 text-7xl  ">.</li>
+            {/* <li className="  animate-fade animate-duration-5 animate-infinite text-yellow-300 ml-11 mt-20 text-7xl  ">.</li> */}
         </ul>
 
 

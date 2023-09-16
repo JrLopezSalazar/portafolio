@@ -1,5 +1,6 @@
 import ModalPortfolio from "./ModalPortfolio";
 import Portfolio from "./Portfolio";
+import SliderModal from "./SliderModal";
 
 const ListPortfolio = ({ dbPortfolio }) => {
 
@@ -12,6 +13,7 @@ const ListPortfolio = ({ dbPortfolio }) => {
       >
         {dbPortfolio.map((proyect) => (
           <Portfolio key={proyect.id} proyect={proyect} />
+          // <SliderModal key={proyect} proyect={proyect} />
           
         ))}
       </section>
