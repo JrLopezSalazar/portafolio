@@ -36,7 +36,7 @@ const ContactForm = () => {
                        peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary
                        peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8]
                        motion-reduce:transition-none dark:text-neutral-200 dark:peer-focus:text-primary"
-                       for="exampleInput90"
+                       htmlFor="exampleInput90"
                        >
                            Name
                        </label>
@@ -59,7 +59,7 @@ const ContactForm = () => {
                        peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary
                        peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8]
                        motion-reduce:transition-none dark:text-neutral-200 dark:peer-focus:text-primary"
-                       for="exampleInput91"
+                       htmlFor="exampleInput91"
                         >
                        Email address
                        </label>

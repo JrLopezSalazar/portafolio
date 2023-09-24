@@ -1,8 +1,11 @@
-import ModalPortfolio from "./ModalPortfolio";
-import Portfolio from "./Portfolio";
-import SliderModal from "./SliderModal";
 
-const ListPortfolio = ({ dbPortfolio }) => {
+import Portfolio from "./Portfolio";
+
+
+
+const ListPortfolio = ({ dbPortfolio, openModal }) => {
+
+   //console.log(dbPortfolio)
 
 
   return (
@@ -11,11 +14,23 @@ const ListPortfolio = ({ dbPortfolio }) => {
       <section
         className="animate-fade-down py-10 grid gap-6 justify-center grid-cols-[repeat(auto-fit,_380px)] max-w-[1200px] mx-auto"
       >
-        {dbPortfolio.map((proyect) => (
-          <Portfolio key={proyect.id} proyect={proyect} />
-          // <SliderModal key={proyect} proyect={proyect} />
+        {dbPortfolio.map((project) => (
+          <Portfolio key={project.id} project={project} openModal={openModal}
+          
+    
+          />
           
         ))}
+        {/* <div className="">
+        {dbPortfolio.map((infoModal) => (
+          <SliderModal key={infoModal.id} infoModal={infoModal}
+          
+    
+          />
+          
+        ))}
+
+        </div> */}
       </section>
       
     </article>

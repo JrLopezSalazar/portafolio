@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1, 
+    "data": {
+      "name": "Rick and Morty",
+      "img": "./images/rym.png",
+      "description": "texto para RICK AND MORTY odal ipso neque nesciunt fugiat impedit nem",
+      "url": "https://voluble-rugelach-805354.netlify.app/",
+      "gallery": ["./images/rymResponsive.png", "./images/rymslider.png", "./images/rymslider2.png"]
+    }
+  },
+
+  {
+    "id": 2,
+    "data": {
+      "name": "Pokedex",
+      "img": "./images/pokedex.png",
+      "description": "texto para pokedex odal ipsum dolor sit amet . Consequuntur  nesciunt fugiat impedit nem",
+      "url": "https://heroic-swan-242092.netlify.app",
+      "gallery": ["./images/poke1.png", "./images/poke2.png", "./images/rymResponsive.png"]
+    }
+  },
+
+  {
+    "id": 3,
+    "data": {
+      "name": "App clima",
+      "img": "./images/wheater.png",
+      "description": "texto para clima app odal ipsum dolor nsequuntur quasi quo neque distinctio cupi nesciunt fugiat impedit nem",
+      "url": "https://heroic-swan-242092.netlify.app",
+      "gallery": ["./images/wheater.png"]
+    }
+  },
+
+  
+
+  {
+    "id": 4,
+    "data": {
+      "name": "Ecommerce",
+      "img":  "/images/ecommerce.png",
+      "description": "texto para clima app odal ipsum dolor nsequuntur quasi quo neque distinctio cupi nesciunt fugiat impedit nem",
+      "url": "https://animated-sprinkles-2e1c48.netlify.app",
+      "gallery": ["./images/wheater.png"]
+    }
+  },
+
+  {
+    "id": 5,
+    "data": {
+      "name":  "Galleta de la fortuna",
+      "img":  "./images/galleta.png",
+      "description": "texto para clima app odal ipsum dolor nsequuntur quasi quo neque distinctio cupi nesciunt fugiat impedit nem",
+      "url": "https://heroic-faun-74d6c2.netlify.app",
+      "gallery": ["./images/wheater.png"]
+    }
+  },
+  {
+    "id": 6,
+    "data": {
+      "name": "Lista de usuarios",
+      "img":  "./images/users.png",
+      "description": "texto para lista de usuarios app odal ipsum dolor nsequuntur quasi quo neque distinctio cupi nesciunt fugiat impedit nem",
+      "url": "https://heroic-faun-74d6c2.netlify.app",
+      "gallery": ["./images/wheater.png"]
+    }
+  }
+]
