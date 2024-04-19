@@ -53,7 +53,7 @@ function App() {
       {/* <ModalPortfolio dbPortfolio={dbPortfolio} /> */}
     
       {/* <Moda /> */}
-      < ContactForm />
+      < ContactForm  />
 
       <div>
       {/* <Portfolio  /> */}

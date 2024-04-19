@@ -20,6 +20,7 @@ export default {
     extend: {
       colors: {
         "color-black1": "#262314",
+        "green-jr": "#3C4742"
       },
       backgroundImage: {
         "bg-jr": "url('/images/bg-img.jpg')",

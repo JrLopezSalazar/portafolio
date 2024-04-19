@@ -5,51 +5,49 @@ const Skills = () => {
     <div className="bg-[#F2F0F0] py-14">
       <div className="max-w-screen-xl mx-auto px-4 md:px-8">
         <div className="max-w-xl mx-auto text-center">
-          <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-            Tecnologias que utilizo para desarrolar webs
+          <h3 className="text-gray-800 font-Poppins text-3xl font-semibold sm:text-[40px] leading-normal">
+            Tecnologías que utilizo para desarrollo web
           </h3>
 
-          <p className="text-gray-600 mt-3" >Lorem ipsum dolor sporro! Illum, ipsam blanditiis?</p>
+          {/* <p className="text-gray-600 mt-3" >Lorem ipsum dolor sporro! Illum, ipsam blanditiis?</p> */}
 
         </div>
         <div className="mt-12 flex justify-center">
           <ul className="inline-grid grid-cols-2 gap-x-14  gap-y-8 md:gap-x-28 md:grid-cols-3 lg:grid-cols-3">
-            {/* LOGO 1 */}
             <li>
               <img src="./images/html5.png" alt="" />
             </li>
 
-            {/* LOGO 2 */}
+  
             <li>
               <img src="./images/css3.png" alt="" />
             </li>
 
-            {/* LOGO 3 */}
+  
             <li>
               <img src="./images/javascript.png" alt="" />
             </li>
 
-            {/* LOGO 4 */}
+  
             <li>
               <img src="./images/react.png" alt="" />
             </li>
 
-            {/* LOGO 5 */}
+            
             <li>
               <img src="./images/github.png" alt="" />
             </li>
 
-            {/* LOGO 6 */}
+            
             <li>
               <img src="./images/tailwind.png" alt="" />
             </li>
 
-            {/* LOGO 7 */}
             <li>
             
             </li>
 
-            {/* LOGO 8 */}
+            
             {/* <li>
               <svg
                 className="w-28 my-auto"

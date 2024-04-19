@@ -46,7 +46,7 @@ const ModalPortfolio1 = () => {
             <p>{selectedItem.text}</p>
         </article>
       )
-      return null;
+      
     }
     return null;
 }

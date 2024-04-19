@@ -4,7 +4,7 @@
     "data": {
       "name": "Rick and Morty",
       "img": "./images/rym.png",
-      "description": "texto para RICK AND MORTY odal ipso neque nesciunt fugiat impedit nem",
+      "description": "Aplicación responsive con data consumida desde una API, permite hacer búsquedas de locaciones y devuelve cards de cada habitante con sus respectivos nombre, tipo y dimensión a la que pertenece. ",
       "url": "https://voluble-rugelach-805354.netlify.app/",
       "gallery": ["./images/rymResponsive.png", "./images/rymslider.png", "./images/rymslider2.png"]
     }
@@ -13,23 +13,25 @@
   {
     "id": 2,
     "data": {
-      "name": "Pokedex",
-      "img": "./images/pokedex.png",
-      "description": "texto para pokedex odal ipsum dolor sit amet . Consequuntur  nesciunt fugiat impedit nem",
-      "url": "https://heroic-swan-242092.netlify.app",
-      "gallery": ["./images/poke1.png", "./images/poke2.png", "./images/rymResponsive.png"]
+      "name":  "Nua Barf - Store",
+      "img":  "./images/storebarf.png",
+      "description": "Ecommer dedicado a la venta de alimentación natural para perros",
+      "url":"https://nuabarf.com/" ,
+      "gallery": ["./images/storebarf1.png", "./images/storebarf2.png", "./images/barfresponsive.png"]
     }
+    
   },
 
   {
     "id": 3,
     "data": {
-      "name": "App clima",
-      "img": "./images/wheater.png",
-      "description": "texto para clima app odal ipsum dolor nsequuntur quasi quo neque distinctio cupi nesciunt fugiat impedit nem",
-      "url": "https://heroic-swan-242092.netlify.app",
-      "gallery": ["./images/wheater.png"]
+      "name": "Pokedex",
+      "img": "./images/pokedex.png",
+      "description": "Aplicación responsive con data consumida desde una API, ingreso controlado por un registro que permite hacer búsquedas personalizadas o filtrarlos por tipos desde un desplegable.  App con rutas protegidas y vista detalle de cada Pokémon.",
+      "url": " ",
+      "gallery": [ "./images/pokeresponsive.png", "./images/pokegallery.png", "./images/poke2.png", "./images/poke1.png"]
     }
+    
   },
 
   
@@ -39,30 +41,31 @@
     "data": {
       "name": "Ecommerce",
       "img":  "/images/ecommerce.png",
-      "description": "texto para clima app odal ipsum dolor nsequuntur quasi quo neque distinctio cupi nesciunt fugiat impedit nem",
-      "url": "https://animated-sprinkles-2e1c48.netlify.app",
-      "gallery": ["./images/wheater.png"]
+      "description": "Aplicación de una tienda online responsive con data consumida de un Json en local storage, opción de agregar productos al carrito de compras funcional y ver el costo total. ",
+      "url": "https://leafy-faun-55ff39.netlify.app",
+      "gallery": ["./images/ecomer.png","./images/comer.png", "./images/eres.png", "./images/ee.png"]
     }
   },
 
   {
     "id": 5,
     "data": {
-      "name":  "Galleta de la fortuna",
-      "img":  "./images/galleta.png",
-      "description": "texto para clima app odal ipsum dolor nsequuntur quasi quo neque distinctio cupi nesciunt fugiat impedit nem",
-      "url": "https://heroic-faun-74d6c2.netlify.app",
-      "gallery": ["./images/wheater.png"]
+      "name": "App clima",
+      "img": "./images/wheater.png",
+      "description": "Aplicación responsive con data consumida de una API, utiliza la ubicación del usuario para brindar información del clima em grados Fahrenheit y posibilidad de cambiar a centígrados.",
+      "url": "https://verdant-fairy-dadf9f.netlify.app/",
+      "gallery": ["./images/wheater.png", "./images/clima.png", "./images/climares.png"]
     }
+    
   },
   {
     "id": 6,
     "data": {
       "name": "Lista de usuarios",
       "img":  "./images/users.png",
-      "description": "texto para lista de usuarios app odal ipsum dolor nsequuntur quasi quo neque distinctio cupi nesciunt fugiat impedit nem",
-      "url": "https://heroic-faun-74d6c2.netlify.app",
-      "gallery": ["./images/wheater.png"]
+      "description": "Aplicación responsive que permite administrar usuarios, crearlos con su fecha de nacimiento, email. Posibilidad de editar los datos y eliminar usuarios.",
+      "url": "https://animated-sprinkles-2e1c48.netlify.app",
+      "gallery": ["./images/user.png", "./images/crud.png"]
     }
   }
 ]

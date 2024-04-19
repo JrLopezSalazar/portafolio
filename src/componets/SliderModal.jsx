@@ -1,7 +1,7 @@
 import { Carousel } from "flowbite-react";
 
 const SliderModal = ({projectId, dbPortfolio}) => {
-    console.log(projectId)
+    //console.log(projectId)
     
 
   return (

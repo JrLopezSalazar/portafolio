@@ -18,10 +18,7 @@ const Moda = ( { itemModal, isOpen, closeModal, selectedProjectId, dbPortfolio }
   const [size, setSize] = React.useState("5xl");
   const [selectedItemId, setSelectedItemId] = useState(null);
 
-  // const handleOpen = (size) => {
-  //   setSize(size);
-    
-  // };
+ 
 
   const handleItemClick = (itemId) => {
     setSelectedItemId(itemId);
@@ -31,7 +28,7 @@ const Moda = ( { itemModal, isOpen, closeModal, selectedProjectId, dbPortfolio }
 
   return (
     <Modal size="5xl" isOpen={isOpen} onClose={closeModal}>
-      <ModalContent className="border-4 border-red-500 h-[450px] md:h-[420px] mr-5 flex mb-[190px] md:w-[1000px]   bg-[#F2F0F0]">
+      <ModalContent className="border-4 border-yellow-400 h-[540px] md:h-[420px] mr-5 flex mb-[190px] md:w-[1000px]   bg-[#F2F0F0]">
 
       
     

@@ -5,7 +5,7 @@ const Footer = () => {
     
     <footer className="bg-[#101b17] text-white  p-4 flex justify-center ">
       <aside>
-        <p className="md:text-xl text-sm">Copyright © 2023 - All right reserved by Junior López</p>
+        <p className="md:text-xl text-sm ">Copyright © 2024 - All right reserved by Junior López</p>
       </aside>
     </footer>
   );

@@ -1,4 +1,15 @@
+import React, { useState } from 'react'; 
+
 const Home = () => {
+
+  const [mostrarTextoCompleto, setMostrarTextoCompleto] = useState(false);
+  const textoCompleto = " De niño nunca imaginé que la programación sería parte de mi vida y nunca consideré convertirme en programador. Mi primer encuentro con la programación fue casual. Tropecé con un curso en línea sobre desarrollo web mientras buscaba información completamente diferente. Aunque inicialmente no me interesaba, decidí darle una oportunidad y ese fue el primer paso. A medida que me sumergía en el aprendizaje de la programación, enfrenté desafíos que me pusieron a prueba, los conceptos y códigos parecían un lenguaje extraterrestre pero en lugar de rendirme me intrigaron los problemas y la resolución de dichos problemas. En ese momento me comenzo a apasionar la programación. "
+
+  const toggleMostrarTexto = () => { 
+
+    setMostrarTextoCompleto(!mostrarTextoCompleto);
+
+  }; 
   return (
     <main>
       <article>
@@ -10,7 +21,52 @@ const Home = () => {
                     </div>
                     <figure>
                         <blockquote>
-                            <p className="text-gray-800 text-left text-xl font-semibold sm:text-2xl">
+                        <div> 
+
+      {mostrarTextoCompleto ? ( 
+
+        <div> 
+
+          <p className='text-gray-800 text-xl'>{textoCompleto}</p> 
+
+          <button 
+
+            onClick={toggleMostrarTexto} 
+
+            className="text-blue-500 hover:underline cursor-pointer" 
+
+          > 
+
+            Ver menos 
+
+          </button> 
+
+        </div> 
+
+      ) : ( 
+
+        <div> 
+
+          <p className='text-gray-800 text-left text-xl font-normal sm:text-2xl font-Poppins'  >De niño nunca imaginé que la programación sería parte de mi vida y nunca consideré convertirme en programador. Mi primer encuentro con  </p> 
+
+          <button 
+
+            onClick={toggleMostrarTexto} 
+
+            className="text-yellow-400 hover:underline cursor-pointer text-2xl" 
+
+          > 
+
+            Ver más 
+
+          </button> 
+
+        </div> 
+
+      )} 
+
+    </div> 
+                            {/* <p className="text-gray-800 text-left text-xl font-semibold sm:text-2xl">
                                   De niño nunca imaginé que la programación sería parte de mi vida y nunca 
                                   consideré convertirme en programador. 
                                  Mi primer encuentro con la programación fue casual. Tropecé con un curso en
@@ -23,7 +79,7 @@ const Home = () => {
                                  me pusieron a prueba, los conceptos y códigos parecían un lenguaje extraterrestre 
                                  pero en lugar de rendirme me intrigaron los problemas y la resolución de dichos problemas. 
                                  En ese momento me comenzo a apasionar la programación. 
-                                 </p>
+                                 </p> */}
                         </blockquote>
                         <div className="mt-6">
                           

@@ -26,7 +26,7 @@ const ModalPortfolio = ({project, dbPortfolio}) => {
       
            <div className="mb-5"> 
             <p className="text-justify mb-6 md:px-6 text-black ">{project?.data.description}</p>
-                <a className="b-4 bg-[#4C5938] text-white p-2 px-3 rounded-lg md:ml-6 " href={project?.data.url}>ver proyectos</a>
+                <a className="b-4 bg-[#4C5938] text-white p-2 px-3 rounded-lg md:ml-6 hover:bg-green-900 " href={project?.data.url} target="_blank">ver proyecto</a>
 
            </div> 
           
